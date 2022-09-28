@@ -17,16 +17,16 @@ public class RemovingSpecialCharacters {
 			} else {
 				
 				nospecialcharacters=nospecialcharacters+s.charAt(i);
-
 			}
-
 		}
+		
 		if(count!=0)
-		System.out.println(count);
+			System.out.println(count);
 		
 		else {
 			System.out.println("no special characters");
-		}
+			}
+		
 		System.out.println(nospecialcharacters);
 	}
 }
