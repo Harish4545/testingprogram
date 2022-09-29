@@ -1,3 +1,6 @@
+package testingprogram;
+
+
 public class Deadlock {
 	/* * This method request two locks, first String and then Integer */ 
 	public void method1() {
